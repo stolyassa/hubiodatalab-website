@@ -19,8 +19,10 @@ html {
     width: 100%;
     height: 100%;
     background-image: url(../pictures/world2.gif);
+    background-repeat: no-repeat;
     position: fixed;
     z-index: -1;
+    background-position: calc(50% + 200px) calc(50% + 200px);
 }
 
 #background,
@@ -51,7 +53,7 @@ footer {
 }
 
 .banner {
-    height: 300px;
+    height: 250px;
     background-color: #CC3236 !important;
     border-radius: 50px;
     margin: 1px;
@@ -259,7 +261,7 @@ h1 {
 }
 
 .cat-img {
-    height: 150px;
+    height: 100px;
 }
 .profile-img{
     height: 280px;
@@ -324,10 +326,7 @@ h1 {
         background-color: black;
     }
 
-    .banner {
-        height: 1200px;
-
-    }
+    
 
     figure img {
 
@@ -362,7 +361,7 @@ h1 {
     }
     
     .bannerOurTeam {
-        height: 1000px;
+        height: 800px;
     }
     
     .box {
@@ -370,9 +369,23 @@ h1 {
     }
 }
 
+
+@media screen and (max-width: 450px) {
+    .banner {
+        height: 750px;
+
+    }
+}
+
+@media screen and (max-width: 576px) and (min-width: 451px) {
+    .banner {
+        height: 550px;
+    }
+}
+
 @media screen and (max-width: 768px) and (min-width: 577px) {
     .banner {
-        height: 465px;
+        height: 450px;
     }
 
     .connection {
@@ -384,7 +397,13 @@ h1 {
     }
 }
 
+
+
 @media screen and (min-width:769px) and (max-width: 992px) {
+    .banner {
+        height: 350px;
+    }
+
     .connection {
         width: 60%;
     }
