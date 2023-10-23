@@ -195,6 +195,18 @@ footer {
     margin-left: 5%;
 }
 
+.cat-img {
+    height: 100px;
+}
+.profile-img{
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-info{
+    display: flex;
+}
+
 .connection {
     background-color: white;
     width: 30%;
@@ -237,13 +249,10 @@ footer {
     left: 10%;
 }
 
+/*
 .conField:focus + .conButton {
-    opacity: 1;
-    left: 82%;
-    z-index: 2;
-    background: #222;
-    color: white;
-}
+    
+}*/
 
 .conButton {
     position: absolute;
@@ -266,17 +275,7 @@ footer {
     cursor: pointer;
 }
 
-.cat-img {
-    height: 100px;
-}
-.profile-img{
-    height: 150px;
-    border-radius: 50%;
-}
 
-.profile-info{
-    display: flex;
-}
 
 @media screen and (max-width: 576px) {
     h1 {
@@ -326,8 +325,6 @@ footer {
     .carousel-indicators {
         position: initial;
     }
-
-    
 
     #myNavbar ul a:hover {
         background-color: black;
@@ -380,11 +377,27 @@ footer {
         height: 750px;
 
     }
+
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 82%;
+        z-index: 2;
+        background: #222;
+        color: white;
+    }
 }
 
 @media screen and (max-width: 576px) and (min-width: 451px) {
     .banner {
         height: 550px;
+    }
+
+     .conField:focus + .conButton {
+        opacity: 1;
+        left: 82%;
+        z-index: 2;
+        background: #222;
+        color: white;
     }
 }
 
@@ -399,9 +412,39 @@ footer {
 
     .conLabel {
         font-size: 19px;
+    } 
+}
+
+
+@media screen and (max-width: 623px) and (min-width: 576px) {
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 80%;
+        z-index: 2;
+        background: #222;
+        color: white;
     }
 }
 
+@media screen and (max-width: 672px) and (min-width: 624px) {
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 83%;
+        z-index: 2;
+        background: #222;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 673px) {
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 85%;
+        z-index: 2;
+        background: #222;
+        color: white;
+    }
+}
 
 
 @media screen and (min-width:769px) and (max-width: 992px) {
@@ -416,6 +459,14 @@ footer {
     .conButton {
         font-size: 13px;
         padding-right: 30px;
+    }
+
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 85%;
+        z-index: 2;
+        background: #222;
+        color: white;
     }
 }
 
@@ -437,7 +488,81 @@ footer {
     .connection {
         width: 50%;
     }
+
 }
+
+@media screen and (min-width:993px) and (max-width: 1019px)
+{
+
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 83%;
+        z-index: 2;
+        background: #222;
+        color: white;
+    }
+}
+
+@media screen and (min-width:1020px) and (max-width: 1097px)
+{
+
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 83%;
+        z-index: 2;
+        background: #222;
+        color: white;
+    }
+}
+
+@media screen and (min-width:1098px) and (max-width: 1200px)
+{
+
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 85%;
+        z-index: 2;
+        background: #222;
+        color: white;
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width:1424px)
+{
+
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 78%;
+        z-index: 2;
+        background: #222;
+        color: white;
+    }
+}
+
+@media screen and (min-width:1425px) and (max-width:1600px)
+{
+
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 81%;
+        z-index: 2;
+        background: #222;
+        color: white;
+    }
+}
+
+@media screen and (min-width:1601px) and (max-width:1800px)
+{
+
+    .conField:focus + .conButton {
+        opacity: 1;
+        left: 84%;
+        z-index: 2;
+        background: #222;
+        color: white;
+    }
+}
+
 
 .aTitle{
   text-transform: uppercase;
