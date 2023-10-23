@@ -175,7 +175,7 @@ h1 {
 
 #infobanner {
     margin-top: 250px;
-    max-height: calc(100vh - 250px); /* fit the given space */
+    /*max-height: calc(100vh - 250px); /* fit the given space */
     /*overflow-y: scroll; /* delete vertical scrollbar even if the content overflows */
 }
 
