@@ -41,12 +41,6 @@ html {
     max-width: 100px;
 }
 
-footer {
-    bottom: 0px;
-    background-color: #16161C;
-    z-index: 2;
-}
-
 .pusher {
     height: 90%;
     width: 100%;
@@ -154,8 +148,20 @@ h1 {
 
 #infobanner {
     margin-top: 250px;
-    max-height: calc(100vh - 250px); /* fit the given space
-    overflow-y: hidden; /* delete vertical scrollbar even if the content overflows */
+    /*max-height: calc(100vh - 250px); /* fit the given space */
+    /*overflow-y: scroll; /* delete vertical scrollbar even if the content overflows */
+}
+
+footer {
+    bottom: 0px;
+    background-color: #16161C;
+    z-index: 2;
+}
+
+.footer {
+    position: static !important;
+    background-color: #CC3236 !important;
+    bottom: 0;
 }
 
 .footerOther {
@@ -233,7 +239,7 @@ h1 {
 
 .conField:focus + .conButton {
     opacity: 1;
-    left: 77%;
+    left: 82%;
     z-index: 2;
     background: #222;
     color: white;
@@ -321,16 +327,11 @@ h1 {
         position: initial;
     }
 
-    .footer {
-        position: static !important;
-        background-color: #CC3236 !important;
-    }
+    
 
     #myNavbar ul a:hover {
         background-color: black;
     }
-
-    
 
     figure img {
 
