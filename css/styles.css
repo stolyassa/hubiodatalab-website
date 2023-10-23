@@ -432,6 +432,10 @@ footer {
         background: #222;
         color: white;
     }
+
+    .bannerAboutUs {
+        height: 800px;
+    }
 }
 
 @media screen and (max-width: 768px) and (min-width: 577px) {
@@ -446,6 +450,10 @@ footer {
     .conLabel {
         font-size: 19px;
     } 
+
+    .bannerAboutUs {
+        height: 800px;
+    }
 }
 
 
@@ -501,6 +509,10 @@ footer {
         background: #222;
         color: white;
     }
+
+    .bannerAboutUs {
+        height: 800px;
+    }
 }
 
 @media screen and (min-width: 993px)
@@ -520,6 +532,10 @@ footer {
 {
     .connection {
         width: 50%;
+    }
+
+    .bannerAboutUs {
+        height: 800px;
     }
 
 }
@@ -570,6 +586,10 @@ footer {
         background: #222;
         color: white;
     }
+
+    .bannerAboutUs {
+        height: 800px;
+    }
 }
 
 @media screen and (min-width:1425px) and (max-width:1600px)
@@ -582,6 +602,10 @@ footer {
         background: #222;
         color: white;
     }
+
+    .bannerAboutUs {
+        height: 800px;
+    }
 }
 
 @media screen and (min-width:1601px) and (max-width:1800px)
@@ -593,6 +617,10 @@ footer {
         z-index: 2;
         background: #222;
         color: white;
+    }
+
+    .bannerAboutUs {
+        height: 800px;
     }
 }
 
